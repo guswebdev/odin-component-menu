@@ -1,4 +1,34 @@
+:root {
+  --color-blanco: #fff;
+  --color-negro: #222;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
-    background-color: crimson;
-    color: white;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
